@@ -11,13 +11,19 @@ export default createGlobalStyle`
     body{
         font-family: 'Space Grotesk', sans-serif;
     }
+    h1,h2,h3{
+        color: #1E1E1E;
+    }
     h3{
-        font-size: 24px;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        color: #1E1E1E;
-
+    }
+    h4{
+        font-size: 1rem;
+        font-weight: 400;
+        line-heigh: 1.5rem;
     }
     button{
         background-color: ${primary_color};
