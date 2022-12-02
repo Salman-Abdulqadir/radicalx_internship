@@ -12,7 +12,7 @@ const NavBar = () => {
                 <StyledLinks>
                     <li><h4>Dashboard</h4></li>
                     <li><h4>Apprenterships</h4></li>
-                    <li><h4>Internships</h4></li>
+                    <li className="active-link"><h4>Internships</h4></li>
                     <li><h4>Jobs</h4></li>
                     <li><h4>Settings</h4></li>
                 </StyledLinks>
