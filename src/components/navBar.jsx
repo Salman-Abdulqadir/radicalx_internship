@@ -26,7 +26,7 @@ const NavBar = () => {
 }
 
 const StyledNav = styled.div`
-    min-height: 98vh;
+    max-height: 98vh;
     border-radius: 1rem;
     padding: 2rem;
     background: white;

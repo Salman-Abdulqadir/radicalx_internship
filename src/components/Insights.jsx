@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+
+
 const Insight = () => {
   return (
     <StyledInsight>
@@ -20,6 +22,7 @@ const Insight = () => {
           </div>
           <button>Select Dates</button>
         </header>
+        <div>Line chart</div>
       </div>
     </StyledInsight>
   );

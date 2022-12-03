@@ -29,11 +29,23 @@ export default createGlobalStyle`
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5rem;
+        color: #333333;
     }
     h5{
         font-weight: 600;
         font-size: 20px;
         line-height: 1.5rem;
+    }
+    p{
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1rem;
+        color: #2f3031;
+    }
+    th{
+        font-weight: 500;
+        font-size: 14px;
+        color: #2f3031;
     }
    
     button, input{
@@ -64,6 +76,10 @@ export default createGlobalStyle`
     }
     .login-empty-div{
         background-color: ${primary_color};
+    }
+    .active{
+        color: ${primary_color};
+        background: rgba(102, 85, 239, 0.2);
     }
     .active-link{
         border: 1px solid ${primary_color}!important;

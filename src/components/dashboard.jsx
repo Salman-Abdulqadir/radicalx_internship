@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 import Insight from "./Insights";
+import InternshipList from "./intershipList";
+
 
 const Dashboard = () => {
   return (
@@ -11,6 +13,7 @@ const Dashboard = () => {
         <button className="purple-btn">Create New Internship</button>
       </div>
       <Insight />
+      <InternshipList/>
     </StyledDashboard>
   );
 };
