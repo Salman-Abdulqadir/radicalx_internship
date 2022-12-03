@@ -46,6 +46,7 @@ const StyledInsight = styled.div`
       background-color: #f2f2f2;
       border-radius: 0.5rem;
       padding: 5px;
+      margin-bottom: 1rem;
       div .purple-btn {
         margin-right: 1rem;
       }
