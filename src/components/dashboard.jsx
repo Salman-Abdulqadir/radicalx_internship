@@ -10,7 +10,7 @@ const Dashboard = () => {
     <StyledDashboard>
       <div className="flex">
         <h2>Internships</h2>
-        <button className="purple-btn">Create New Internship</button>
+        <button className="purple-btn"> <strong>+</strong> Create New Internship</button>
       </div>
       <Insight />
       <InternshipList/>

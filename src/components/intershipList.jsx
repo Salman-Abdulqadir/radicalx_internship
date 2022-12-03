@@ -50,7 +50,7 @@ const InternshipList = () =>{
     ]
     return(
         <StyledTable>
-            <table>
+            <table cellSpacing={0}>
                 <StyledHeader>
                     <th>Internship Title</th>
                     <th>Completion Period</th>
@@ -76,6 +76,7 @@ const InternshipList = () =>{
 const StyledTable = styled.div`
     table{
         width: 100%;
+        postion: relative;
     }
     max-height: 65vh;
     overflow-y: scroll;
@@ -103,8 +104,10 @@ const StyledTable = styled.div`
     
 `
 const StyledHeader = styled.tr`
-    background: #f2f2f2;
+    position: sticky;
+    top: 0px;
     th{
+        background: #f2f2f2;
         padding: 1rem 0.75rem;
         text-align: left;
     }

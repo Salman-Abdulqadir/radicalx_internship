@@ -66,7 +66,14 @@ export default createGlobalStyle`
         padding: 12px 1rem;
         border-radius: 12px;
         background-color: ${primary_color};
+        border: 1px solid ${primary_color};
         color: white;
+        transition: all 0.5s ease;
+        &:hover{
+            background-color: rgba(102, 85, 239, 0.2);
+            color: ${primary_color};
+            
+        }
     }
     .flex{
         display: flex;
@@ -83,7 +90,7 @@ export default createGlobalStyle`
     }
     .active-link{
         border: 1px solid ${primary_color}!important;
-        color: ${primary_color};
+        color: ${primary_color}!important;
         background: rgba(102, 85, 239, 0.2);
     }
 `;
