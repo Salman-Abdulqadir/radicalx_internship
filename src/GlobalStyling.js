@@ -62,6 +62,9 @@ export default createGlobalStyle`
         color: rgba(47, 48, 49, 0.54);
         padding: 10px 1rem 10px 1rem;
     }
+    button{
+        cursor: pointer;
+    }
     .purple-btn{
         padding: 12px 1rem;
         border-radius: 12px;

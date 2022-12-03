@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import StatChart from "./lineChart";
 
 
 const Insight = () => {
@@ -22,7 +22,7 @@ const Insight = () => {
           </div>
           <button>Select Dates</button>
         </header>
-        <div>Line chart</div>
+        <StatChart/>
       </div>
     </StyledInsight>
   );
